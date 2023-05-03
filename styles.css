@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.holder div{
+    height: 50px;
+    width: 50px;
+    
+}
+.holder div:nth-child(odd){
+   
+    background-color: green;
+}
+.holder div:nth-child(even){
+   
+    background-color: red;
+}
